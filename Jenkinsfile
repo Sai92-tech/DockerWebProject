@@ -34,7 +34,7 @@ node {
      stage('RunningImages') {
 
          sh '''
-          docker run -d -p 7777:80 saik92/webpage:latest
+          docker run -d -p 5678:80 saik92/webpage:latest
           docker ps
            
          '''
